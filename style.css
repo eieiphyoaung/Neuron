@@ -1,0 +1,190 @@
+/* ===== Home Page CSS ====== */
+body{
+    font-family: 'Merriweather', serif;
+    color:#777;
+    line-height: 26px;
+}
+.navigation{
+    padding:30px 0px;
+}
+.logo{
+    font-size:18px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    letter-spacing:4px;
+}
+.logo a{
+    color:#555;
+}
+.logo a:hover{
+    text-decoration: none;
+}
+.links ul{
+    margin-bottom: 0;
+    float:right;
+}
+.links a{
+    color:#777;
+    font-family: 'Merriweather', serif;
+    font-size:15px;
+}
+.links ul li{
+    padding-left:20px;
+    padding-right:20px;
+}
+.links a{
+    text-decoration: none;
+}
+.links a:hover{
+    color:#bfba55;
+}
+.links .active a{
+    color:#bfba55;
+}
+.hero{
+    background:url('images/home-bg.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top center;
+    padding:280px 0px;
+    text-align: center;
+}
+.hero-title{
+    color:white;
+    font-size: 62px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+.hero-slogan{
+    color:#bfba55;
+    margin-top:30px;
+    margin-bottom: 50px;
+}
+.btn-hero{
+    background:white;
+    padding:13px 22px;
+    border:1px solid grey;
+    border-radius:25px;
+    font-family: 'Merriweather', serif;
+}
+.btn-hero:hover{
+    background:transparent;
+    color:white;
+    border: 2px solid white;
+}
+.articles{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.articles hr{
+    margin:65px 0px;
+}
+.btn-article{
+    border:1px solid grey;
+    border-radius:30px;
+    padding:13px 20px;
+    background:transparent;
+    color:#777;
+    margin-top:25px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+}
+
+.btn-article:hover{
+    background:#bfba55;
+    color:white;
+}
+
+.article-title{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size:26px;
+    letter-spacing: 0.5px;
+    margin-top:40px;
+}
+
+.article-title a{
+    color:#222;
+}
+.article-title a:hover{
+    text-decoration: none;
+    color:#bfba55;
+}
+.article-meta{
+    margin:20px 0px;
+}
+
+.article-meta span{
+    margin:0px 10px;
+    font-family: 'Merriweather', serif;
+    color:#333;
+}
+.img-author{
+    width:42px;
+}
+.footer{
+    padding-top:80px;
+    padding-bottom: 80px;
+    background:black;
+    color:white;
+}
+.copyright{
+    margin-top:30px;
+}
+.footer {
+    font-family: 'Merriweather', serif;
+}
+.about h2, .contact h2{
+    font-weight: bold;
+}
+.footer hr{
+    margin-top:62px;
+    margin-bottom: 42px;
+}
+
+/* ===== About Page CSS ===== */
+.banner{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:top center;
+    padding:170px 0px;
+    text-align: center;
+}
+
+.banner h1{
+    font-size:62px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color:white;
+}
+
+.about-banner{
+    background:url('images/about-bg.jpg');
+}
+.gallery-banner{
+    background:url('images/gallery-bg.jpg');
+}
+.contact-banner{
+    background:url('images/contact-bg.jpg');
+}
+.content{
+    margin:70px 0px;
+}
+.mt-50{
+    margin-top:50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.m-50{
+    margin:50px;
+}
+.mtb-50{
+    margin:50px 0px;
+}
+.pl-0{
+    padding-left:0;
+}
+.pr-0{
+    padding-right:0;
+}
